@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>loginpage</title>
+
+    <link rel="stylesheet" href="hack.css">
+  </head>
+  <body class="container">
+    <div class="container">
+      <video src="videofile.ogg" autoplay poster="posterimage.jpg" id="videoElement" autoplay="true">
+
+      </video>
+
+  <a href="QR/index.html" class="proceed">Proceed</a>  
+    </div>
+
+  </body>
+<script type="text/javascript">
+  var video=document.querySelector("#videoElement");
+  navigator.getUserMedia=navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia
+  || navigator.mozGetUserMedia;
+  if(navigator.getUserMedia){
+    navigator.getUserMedia(
+    {    video:true  },handleVideo,videoError  );
+
+  }
+  function handleVideo(stream){
+    video.srcObject=stream;
+    video.play();
+  }
+  function videoError(e){
+
+  }
+</script>
+</html>

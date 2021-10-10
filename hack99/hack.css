@@ -1,0 +1,120 @@
+body{
+background-color:   #1DB9C3;
+}
+nav{
+  padding: 8px;
+  position: relative;
+  left :30%;
+
+
+}
+
+a{
+  display: inline-block;
+  width: 200px;
+  color: white;
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-decoration-line: none;
+
+
+}
+.SearchBar{
+  position: relative;
+  left:40%;
+  border-radius: 30px;
+  width: 300px;
+  height: 20px;
+}
+.skills{
+  font-family: 'Sacramento', cursive;
+  color: #cee5d0;
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.heading{
+  position: absolute;
+  right: 40%;
+
+}
+.sub-head{
+  position: absolute;
+  right: 30%;
+  bottom: 60%;
+}
+h1{
+  font-family: 'Baloo Tammudu 2', cursive;
+  display: inline-block;
+    margin-bottom: 0px;
+    color: white;
+
+
+}
+p{
+  display: inline-block;
+  margin-top: 0px;
+  color: white;
+}
+img{
+  /* position: relative;
+  left :400px;
+  bottom: 200px; */
+}
+.image{
+  width: 20%;
+  position: absolute;
+  bottom: 23%;
+  left: 43%;
+}
+.main{
+  padding: 20px;
+}
+button{
+  position: relative;
+  left: 0px;
+  bottom: 200px;
+  padding: 10px;
+}
+.buttonSecond{
+  margin-left: 20px;
+  background-color: #a9f1df;
+  border-radius: 50px;
+}
+.buttonfirst{
+  border-radius: 50px;
+  background-color:#00adb5;
+}
+h2{
+  font-family: 'Baloo Tammudu 2', cursive;
+  display: inline-block;
+    margin-bottom: 0px;
+    color: white;
+}
+.container{
+  margin: 0px auto;
+  width: 500px;
+  height: 375px;
+  border: 10px #333 solid;
+}
+#videoElement{
+  width: 500px;
+  height: 375px;
+  background-color: #666;
+}
+.qrPic{
+  position: absolute;
+  bottom: 5%;
+  left: 48%;
+}
+.ProceedButton{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+
+}
+proceed{
+  position: absolute;
+left: 50%;
+bottom: 10%;
+}
